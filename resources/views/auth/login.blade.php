@@ -52,6 +52,11 @@
                     {{ __('Login') }}
                 </button>
             </div>
+            <div class="mt-6">
+                <a href="{{ route('oauth.redirect') }}" type="submit" class="w-1/2 py-2 px-4 text-center bg-black rounded-md text-white text-sm focus:outline-none">
+                    Login with <span class="font-bold">Github</span>
+                </a>
+            </div>
         </form>
     </div>
 </div>
