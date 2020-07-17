@@ -20,6 +20,8 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/privacy', 'PrivacyController');
+Route::get('/terms', 'TermsOfServiceController');
 
 Route::get('login/github', 'Auth\LoginController@redirectToProvider')->name('oauth.redirect');
 Route::get('login/github/callback', 'Auth\LoginController@handleProviderCallback')->name('oauth.callback');
