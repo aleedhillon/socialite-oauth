@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,9 +20,15 @@ Route::get('/', function () {
 
 Auth::routes();
 
+Route::get('login/{provider}', 'Auth\LoginController@redirectToProvider')
+    ->where('provider', 'github|google')
+    ->name('oauth.redirect');
+Route::get('login/{provider}/callback', 'Auth\LoginController@handleProviderCallback')
+    ->where('provider', 'github|google')
+    ->name('oauth.callback');
+
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/privacy', 'PrivacyController');
 Route::get('/terms', 'TermsOfServiceController');
 
-Route::get('login/github', 'Auth\LoginController@redirectToProvider')->name('oauth.redirect');
-Route::get('login/github/callback', 'Auth\LoginController@handleProviderCallback')->name('oauth.callback');
+
