@@ -21,10 +21,10 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('login/{provider}', 'Auth\LoginController@redirectToProvider')
-    ->where('provider', 'github|google')
+    ->where('provider', 'github|google|facebook')
     ->name('oauth.redirect');
 Route::get('login/{provider}/callback', 'Auth\LoginController@handleProviderCallback')
-    ->where('provider', 'github|google')
+    ->where('provider', 'github|google|facebook')
     ->name('oauth.callback');
 
 Route::get('/home', 'HomeController@index')->name('home');
