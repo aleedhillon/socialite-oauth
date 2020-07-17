@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="flex items-center justify-center mt-16 mx-6">
+<div class="flex items-center justify-center mt-8 mx-6">
     <div class="p-6 max-w-sm w-full bg-white shadow rounded-md">
         <h3 class="text-gray-700 text-xl text-center">{{ __('Login') }}</h3>
 
