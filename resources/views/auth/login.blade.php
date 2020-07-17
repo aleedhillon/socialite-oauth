@@ -53,10 +53,10 @@
                 </button>
             </div>
             <div class="mt-6">
-                <a href="{{ route('oauth.redirect', 'github') }}" type="submit" class="block py-2 px-4 text-center bg-black hover:bg-gray-800 rounded-md text-white text-sm focus:outline-none">
+                <a href="{{ route('oauth.redirect', ['provider' => 'github']) }}" type="submit" class="block py-2 px-4 text-center bg-black hover:bg-gray-800 rounded-md text-white text-sm focus:outline-none">
                     Login with <span class="font-bold">Github</span>
                 </a>
-                <a href="{{ route('oauth.redirect', 'google') }}" type="submit" class="block mt-2 py-2 px-4 text-center bg-green-700 hover:bg-green-500 rounded-md text-white text-sm focus:outline-none">
+                <a href="{{ route('oauth.redirect', ['provider' => 'google']) }}" type="submit" class="block mt-2 py-2 px-4 text-center bg-green-700 hover:bg-green-500 rounded-md text-white text-sm focus:outline-none">
                     Login with <span class="font-bold">Google</span>
                 </a>
             </div>
