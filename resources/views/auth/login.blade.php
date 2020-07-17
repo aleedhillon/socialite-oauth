@@ -59,7 +59,7 @@
                 <a href="{{ route('oauth.redirect', ['provider' => 'google']) }}" type="submit" class="block mt-2 py-2 px-4 text-center bg-green-700 hover:bg-green-500 rounded-md text-white text-sm focus:outline-none">
                     Login with <span class="font-bold">Google</span>
                 </a>
-                <a href="{{ route('oauth.redirect', ['provider' => 'facebook']) }}" type="submit" class="block mt-2 py-2 px-4 text-center bg-blue-700 hover:bg-green-500 rounded-md text-white text-sm focus:outline-none">
+                <a href="{{ route('oauth.redirect', ['provider' => 'facebook']) }}" type="submit" class="block mt-2 py-2 px-4 text-center bg-blue-700 hover:bg-blue-500 rounded-md text-white text-sm focus:outline-none">
                     Login with <span class="font-bold">Facebook</span>
                 </a>
             </div>

@@ -11,7 +11,7 @@
 
 <body class="bg-gray-200">
     <div class="bg-blue-800 h-32 w-full px-40 py-6 text-white">
-        <h1 class="text-4xl">Socialite OAuth</h1>
+        <a href="{{ url('/') }}"><h1 class="text-4xl">Socialite OAuth</h1></a>
         <p>Privacy Policy of https://socialite-oauth.herokuapp.com
         </p>
     </div>
