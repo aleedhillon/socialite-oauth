@@ -68,6 +68,19 @@
         .text-center {
             text-align: center;
         }
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1.5rem 0;
+            color: black;
+        }
+        .mx-2 {
+            margin: 0 4px;
+        }
     </style>
 </head>
 
@@ -95,6 +108,11 @@
     </div>
     <hr>
     <p class="text-center">Welcome to Socialite OAuth</p>
+    <footer class="footer">
+        <span class="mx-2">&copy; 2020 All reights reserved.</span>
+        <a class="mx-2" href="/terms">Terms of Service</a>
+        <a class="mx-2" href="/privacy">Privacy Policy</a>
+    </footer>
 </body>
 
 </html>
