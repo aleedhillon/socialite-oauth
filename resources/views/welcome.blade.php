@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="ey8pzx5tPhEEecte7DaLj3WObQafSpC2nqHRjydeurg" />
 
     <title>Socialite OAuth</title>
 
