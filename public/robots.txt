@@ -1,2 +1,3 @@
 User-agent: *
 Disallow:
+Sitemap: https://socialite-oauth.herokuapp.com/sitemap.xml
