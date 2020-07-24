@@ -82,6 +82,12 @@
         .mx-2 {
             margin: 0 4px;
         }
+        a.link {
+            color: #1a202c;
+        }
+        a.link:hover {
+            color: #4299e1;
+        }
     </style>
 </head>
 
@@ -111,8 +117,8 @@
     <p class="text-center">Welcome to Socialite OAuth</p>
     <footer class="footer">
         <span class="mx-2">&copy; 2020 All reights reserved.</span>
-        <a class="mx-2" href="/terms">Terms of Service</a>
-        <a class="mx-2" href="/privacy">Privacy Policy</a>
+        <a class="mx-2 link" href="/terms">Terms of Service</a>
+        <a class="mx-2 link" href="/privacy">Privacy Policy</a>
     </footer>
 </body>
 
