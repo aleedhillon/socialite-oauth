@@ -75,7 +75,8 @@ class LoginController extends Controller
 
             Auth::login($newUser, true);
         } catch (\Throwable $th) {
-            return redirect()->route('oauth.redirect', ['provider', $provider]);
+            throw $th;
+            return redirect()->route('oauth.redirect', ['provider' => $provider]);
         }
 
         return redirect($this->redirectTo);
