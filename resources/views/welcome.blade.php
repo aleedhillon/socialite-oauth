@@ -128,7 +128,7 @@
         <div class="mx-2 footer-flex">&copy; 2020 No Right Reserved. Everything is Open Source.</div>
         <br>
         <div class="footer-flex">
-            <span>By: <a href="https://github.com/aliadhillon">Ali A. Dhillon</a></span>
+            <span>By: <a class="link" href="https://github.com/aliadhillon">Ali A. Dhillon</a></span>
             <a class="mx-2 link" href="/terms">Terms of Service</a>
             <a class="mx-2 link" href="/privacy">Privacy Policy</a>
         </div>
